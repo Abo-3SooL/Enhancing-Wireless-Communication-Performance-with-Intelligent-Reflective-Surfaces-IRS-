@@ -220,7 +220,7 @@ To simulate an obstacle, another IRS array was used, with all unit cells turned 
 
 
 <p align="justify">
-Unfortunately, practical evaluation was not completed due to issues with the transmitter unit and the lack of cheap, available alternatives in Jordan within the project's timeframe. Despite these challenges, significant progress was achieved within a month—a commendable effort considering the enrollment period started around April 7 and the prototype was ordered on May 10. The project, as it stands, is more than sufficient for a graduation project. However, out of respect for one's own efforts and hunger for knowldege. Also, lack of closure sucks, there is a substantial interest in completing it outside of the university, though not immediately, as the university holds the equipment and the prototype. </p>
+Unfortunately, practical evaluation was not completed due to issues with the transmitter unit and the lack of cheap, available alternatives in Jordan within the project's timeframe. </p>
 
 ## Installation and Setup
 ### Prerequisites
@@ -246,4 +246,5 @@ Project simulations and most of this report were entirely done by Mohammad Asasl
 
 
 ## References
-1. Yang, H. et al. A programmable metasurface with dynamic polarization, scattering and focusing control. Sci. Rep. 6, 35692 (2016).
+1. Q. Wu, S. Zhang, B. Zheng, C. You, and R. Zhang, “Intelligent Reflecting Surface-Aided Wireless Communications: A tutorial,” IEEE Transactions on Communications.
+2. Yang, H. et al. A programmable metasurface with dynamic polarization, scattering and focusing control. Sci. Rep. 6, 35692 (2016).
