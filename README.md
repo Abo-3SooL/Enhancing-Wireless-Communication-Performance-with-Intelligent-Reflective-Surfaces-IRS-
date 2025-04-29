@@ -16,7 +16,7 @@ The following image summarizes the problem, the solution, and a practical scenar
 </p>
 
 <p align="center">
-  <img src="images/NIV.png" alt="IRS Problem and Solution" width="600">
+  <img src="Images/NIV.png" alt="IRS Problem and Solution" width="600">
 </p>
 
 ### Solution
@@ -25,8 +25,8 @@ Intelligent Reflective Surfaces (IRS) are proposed as a solution to achieve pass
 </p>
 
 <p align="center">
-  <img src="images/beamforming_1.png" alt="IRS Beamforming Example 1" width="400">
-  <img src="images/beamforming_2.png" alt="IRS Beamforming Example 2" width="400">
+  <img src="Images/beamforming_1.png" alt="IRS Beamforming Example 1" width="400">
+  <img src="Images/beamforming_2.png" alt="IRS Beamforming Example 2" width="400">
 </p>
 
 <p align="justify">
@@ -47,7 +47,7 @@ In this section, we explore the design and simulation of the IRS using CST Micro
 The IRS design begins with the unit cell geometry, crucial for achieving the desired phase shift. Below are the 2D and 3D views of the unit cell components.
 
 <p align="center">
-  <img src="images/unit_cell_design.png" alt="IRS Unit Cell Design" width="1000">
+  <img src="Images/unit_cell_design.png" alt="IRS Unit Cell Design" width="1000">
 </p>
 
 These views provide an understanding of the unit cell structure, which includes a PIN diode, ground plane, substrate, and reflective patch.
@@ -57,7 +57,7 @@ These views provide an understanding of the unit cell structure, which includes 
 The phase response of the S-parameters is crucial for verifying the unit cell achieves the 180-degree phase shift at 2.44 GHz. The plot below shows the S-parameters.
 
 <p align="center">
-  <img src="images/s_parameters.png" alt="S-Parameters Plot" width="1000">
+  <img src="Images/s_parameters.png" alt="S-Parameters Plot" width="1000">
 </p>
 
 This plot demonstrates the phase shift achieved between the two states of the diode, confirming the unit cell design's effectiveness.
@@ -67,7 +67,7 @@ This plot demonstrates the phase shift achieved between the two states of the di
 Unit cells are combined into a 4x9 array to scale the functionality over a larger surface, enabling effective signal manipulation.
 
 <p align="center">
-  <img src="images/irs_array.png" alt="Simulated IRS Array Architecture" width="1000">
+  <img src="Images/irs_array.png" alt="Simulated IRS Array Architecture" width="1000">
 </p>
 
 This array configuration forms the basis for practical IRS implementation in wireless communication systems.
@@ -77,13 +77,13 @@ This array configuration forms the basis for practical IRS implementation in wir
 By changing the IRS configuration from 111111111 to 110000011, the signal pattern changes, demonstrating the IRS's ability to steer signals to previously unseen receivers. The following images illustrate this change. </p>
 
 <p align="center">
-  <img src="images/pattern_111111111.png" alt="IRS Pattern Configuration 111111111" width="350">
-  <img src="images/pattern_110000011.png" alt="IRS Pattern Configuration 110000011" width="300">
+  <img src="Images/pattern_111111111.png" alt="IRS Pattern Configuration 111111111" width="350">
+  <img src="Images/pattern_110000011.png" alt="IRS Pattern Configuration 110000011" width="300">
 </p>
 
 <p align="center">
-  <img src="images/pattern_3d_111111111.png" alt="3D Pattern Configuration 111111111" width="325">
-  <img src="images/pattern_3d_110000011.png" alt="3D Pattern Configuration 111000111" width="325">
+  <img src="Images/pattern_3d_111111111.png" alt="3D Pattern Configuration 111111111" width="325">
+  <img src="Images/pattern_3d_110000011.png" alt="3D Pattern Configuration 111000111" width="325">
 </p>
 
 ### MATLAB Simulation
@@ -100,14 +100,14 @@ The MATLAB simulation replicates a realistic scenario where IRS is used to impro
 
 The transmitter operates at a center frequency of 32 GHz with an 8x8 URA layout, 40% wavelength spacing, and a Chebyshev taper to minimize sidelobes and improve directivity.
 
-![Transmitter Design](images/transmitter_design.png) 
+![Transmitter Design](Images/transmitter_design.png) 
 
 ##### IRS Array
 
 The IRS array consists of multiple reflecting elements in a 50x50 URA layout, 40% wavelength spacing, and a Chebyshev taper. 
 <p align="center">
-  <img src="images/irs_unit_cell_architecture.png" alt="IRS Unit Cell Architecture" width="400"> 
-  <img src="images/irs_array_pattern.png" alt="IRS Array Pattern" width="400"> 
+  <img src="Images/irs_unit_cell_architecture.png" alt="IRS Unit Cell Architecture" width="400"> 
+  <img src="Images/irs_array_pattern.png" alt="IRS Array Pattern" width="400"> 
 </p>
 
 
@@ -116,7 +116,7 @@ The IRS array consists of multiple reflecting elements in a 50x50 URA layout, 40
 <p align="justify"> 
 The simulation models the Hashemite University campus, including typical obstacles such as buildings that obstruct the direct line of sight between the transmitter and receivers. The IRS is strategically placed to reflect signals towards the receivers, optimizing the communication path. </p>
 <p align="center">
-  <img src="images/modeled_university_campus.png" alt="Modeled University Campus" width="1000">
+  <img src="Images/modeled_university_campus.png" alt="Modeled University Campus" width="1000">
 </p>
 
 
@@ -125,22 +125,22 @@ The simulation models the Hashemite University campus, including typical obstacl
 In this scenario, the system's performance is evaluated for users obstructed by obstacles.
 **Setup Enviroment**
 <p align="center">
-  <img src="images/simulation_environment.png" alt="Simulation Environment" width="1000">
+  <img src="Images/simulation_environment.png" alt="Simulation Environment" width="1000">
 </p> 
 
 1. **Base Station Antenna Radiation:** The initial radiation pattern is directed towards the users, and the signal strength is measured at each user location for baseline comparison.
 <p align="center">
-  <img src="images/Original.png" alt="Original Setup" width="1000"> 
+  <img src="Images/Original.png" alt="Original Setup" width="1000"> 
 </p>
 
 2. **Beamforming Towards Users:** Active beamforming techniques are applied to enhance signal strength at both user locations, showing potential improvement.
 <p align="center">
-  <img src="images/active_beamforming.png" alt="Beamforming Setup" width="1000"> 
+  <img src="Images/active_beamforming.png" alt="Beamforming Setup" width="1000"> 
 </p>
 
 3. **IRS-Assisted Signal Relay:** The IRS is configured to relay the signal to the obstructed user, significantly improving the received power level and showcasing the IRS's capability in challenging environments.
 <p align="center">
-  <img src="images/irs-config.png" alt="Without IRS Configuration" width="1000"> 
+  <img src="Images/irs-config.png" alt="Without IRS Configuration" width="1000"> 
 </p>
 
 #### Evaluation
@@ -159,7 +159,7 @@ The following table shows the numerical results for the scenario. The received p
 In this scenario, the system's performance is evaluated for a mobile user moving between five different points.
 
 <p align="center">
-  <img src="images/mobile_user_scenario.png" alt="Mobile User Scenario" width="1000">
+  <img src="Images/mobile_user_scenario.png" alt="Mobile User Scenario" width="1000">
 </p>
 
 1. **Without IRS:** The signal strength is measured at five points without using the IRS. This provides a baseline measurement of the signal coverage.
@@ -169,13 +169,13 @@ The received signal strength at each point is evaluated, and a graph is generate
 
 **Comparing the Received Power in dBm between IRS and Non-IRS System**
 <p align="center">
-  <img src="images/comparison_plot.png" alt="Comparison Plot" width="1000">
+  <img src="Images/comparison_plot.png" alt="Comparison Plot" width="1000">
 </p>
 
 
 **Coverage Maps to Four Different Points**
 <p align="center">
-  <img src="images/coverage_map.png" alt="Coverage Maps" width="1000">
+  <img src="Images/coverage_map.png" alt="Coverage Maps" width="1000">
 </p>
 
 
@@ -190,7 +190,7 @@ The IRS was designed using EasyEDA and manufactured by JLCPCB from China. The de
 
 #### IRS PCB Design
 <p align="center">
-  <img src="images/rs_pcb_design.png" alt="IRS PCB Design" width="1000">
+  <img src="Images/rs_pcb_design.png" alt="IRS PCB Design" width="1000">
 </p>
 
 #### IRS Specifications
@@ -214,7 +214,7 @@ The IRS array uses HDR-SMD_10P connectors and SMP-1320-79LF PIN diodes. These co
 The physical IRS prototype integrates all components to validate theoretical and simulated performance in practice. The array consists of a 4x9 matrix of unit cells.
  </p>
 <p align="center">
-  <img src="images/physical_irs_architecture.png" alt="Physical IRS Architecture" width="1000">
+  <img src="Images/physical_irs_architecture.png" alt="Physical IRS Architecture" width="1000">
 </p>
 To simulate an obstacle, another IRS array was used, with all unit cells turned on, making the IRS function as a perfect reflector at the center frequency.
 
