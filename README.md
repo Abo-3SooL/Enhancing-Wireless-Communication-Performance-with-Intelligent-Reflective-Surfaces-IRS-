@@ -239,10 +239,9 @@ Project simulations and most of this report were entirely done by Mohammad Asasl
 ### Contact Information
 
 
-- **Mohammad Asaslih**  
+**Mohammad Ibrahim Al-Asaslih**  
   Email: [mohammad.asaslih@gmail.com](mailto:mohammad.asaslih@gmail.com)  
-  Phone: +962-78-250-9494
-
+  LinkedIn: <a href="https://www.linkedin.com/in/mohammad-al-asaslih">Mohammad Al-Asaslih</a>
 
 
 ## References
